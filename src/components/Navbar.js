@@ -15,7 +15,7 @@ export default function Navbar(props) {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                         {/* react router setup in place of a use link and in place of href use to like below */}
-                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                            <Link className="nav-link" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/about">{props.aboutText}</Link>
